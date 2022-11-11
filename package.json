@@ -1,0 +1,23 @@
+{
+	"name": "twitter-followings-export",
+	"version": "1.0.0",
+	"description": "this is fine",
+	"repository": "https://github.com/Non-J/twitter-followings-export.git",
+	"author": "Non-j <works@jirawut.com>",
+	"license": "Apache-2.0",
+	"scripts": {
+		"build": "tsc",
+		"run": "node out/index.js",
+		"build-run": "tsc && node out/index.js",
+		"format": "prettier -w ."
+	},
+	"dependencies": {
+		"@tsconfig/node18-strictest": "^1.0.0",
+		"dotenv": "^16.0.3",
+		"twitter-api-sdk": "^1.2.1"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"typescript": "^4.8.4"
+	}
+}
